@@ -1,0 +1,27 @@
+name: flutter_google_signin
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-374.0.dev <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: "0.13.3"
+  google_sign_in: ^5.4.2
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
